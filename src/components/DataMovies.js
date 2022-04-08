@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 function DataMovies() {
-    const moviesApi = 'https://nosqlbackend.herokuapp.com/api/movies';
+    const moviesApi = 'https://nosqlbackend.herokuapp.com/movies/getAll';
 
     var [movies, setMovies] = useState([]);
 
@@ -14,6 +14,7 @@ function DataMovies() {
             .then(response => response.json())
             .then(data => {
                 setMovies(data);
+                
             })
     }
 

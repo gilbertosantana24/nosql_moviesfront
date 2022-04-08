@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import DataMovies from './components/DataMovies';
+import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -24,9 +25,9 @@ function App() {
 
   return (
     <div className="App">
-    <h1>hola</h1>
+    <Navbar />
     <Routes>
-          <Route path="/api/movies" element={<DataMovies />} />
+          <Route path="/" element={<DataMovies />} />
 
     </Routes>
     </div>
