@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 5px;
 }
 
 .brand{
@@ -40,5 +41,5 @@
 
 .header {
     background-color: rgb(255, 251, 0);
-    height: 40px;
+    height: 45px;
 }

@@ -27,7 +27,7 @@ function App() {
     <div className="App">
     <Navbar />
     <Routes>
-          <Route path="/" element={<DataMovies />} />
+          <Route path="/movieCatalog" element={<DataMovies />} />
 
     </Routes>
     </div>
